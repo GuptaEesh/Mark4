@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@400;1,700&display=swap');
 
 :root {
-    --primary-color: #5EEAD4;
+    --primary-color: #3ead0b;
     --dark-gray: #9CA3AF;
     --light-gray:#D1D5DB
 ;
@@ -28,6 +28,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 
 .link-primary {
@@ -79,6 +80,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -113,6 +115,10 @@ hr {
 }
 .footer .link{
     color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 .footer ul{
     padding-inline-start: 0px;
