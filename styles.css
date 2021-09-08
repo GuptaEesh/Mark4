@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@400;1,700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@400;1,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;900&display=swap');
 :root {
     --primary-color: #3ead0b;
     --dark-gray: #9CA3AF;
@@ -7,7 +8,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif SC', serif;
     margin: 0px;
 }
 
@@ -61,7 +62,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -103,6 +104,7 @@ hr {
 }
 .section {
     padding: 2rem;
+    
 }
 
 .section h1 {
@@ -119,7 +121,7 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .footer .link {
