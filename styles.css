@@ -1,6 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@400;1,700&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;900&display=swap');
+
 :root {
     --primary-color: #3ead0b;
     --dark-gray: #9CA3AF;
@@ -42,15 +43,18 @@ hr {
     border-radius: 0.5rem;
     border: 1.2px solid var(--primary-color);
 }
-.link-blogs{
-    color:var(--light-gray);
+
+.link-blogs {
+    color: var(--light-gray);
     text-decoration: none;
     border: 1.1px solid var(--dark-gray);
 }
+
 /* lists */
 
 .list-non-bullet {
     list-style: none;
+    padding-left: 0;
 }
 
 .list-item-inline {
@@ -98,13 +102,15 @@ hr {
     padding-top: 1rem;
     color: var(--dark-gray);
 }
-.blog-img{
-    width:30%;
-    height:25rem;
+
+.blog-img {
+    width: 30%;
+    height: 25rem;
 }
+
 .section {
     padding: 2rem;
-    
+
 }
 
 .section h1 {
