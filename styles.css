@@ -83,6 +83,9 @@ hr {
 
 .navigation .link-active {
     font-weight: bolder;
+    background-color: var(--dark-gray);
+    border-radius: 1rem;
+    padding: 0.8rem 1.8rem;
 }
 
 
