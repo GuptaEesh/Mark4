@@ -1,2 +1,5 @@
 # Mark4
-## *HTML* and *CSS* for component library
+## Used tech:
+* [x] HTML
+* [x] CSS
+* [ ] JS
